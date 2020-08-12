@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Internal Approach</title>
+</head>
+<body>
+    <div id="heading"><h1>CSS-Cascading Style Sheet</h1></div>
+     <table>
+         <thead><tr><th>CSS Tutorial</th></tr></thead>
+         <tbody>
+             <tr><td><a href="home.html">Introduction</a></td></tr>
+             <tr><td><a href="inline.html">Inline Approach</a></td></tr>
+             <tr><td><a href="internal.html">Internal Approach</a></td></tr>
+             <tr><td><a href="external.html">External Approach</a></td></tr>
+             <tr><td><a href="selectors.html">CSS Selectors</a></td></tr>
+             <tr><td><a href="colors.html">CSS Colors</a></td></tr>
+             <tr><td><a href="background.html">CSS Background</a></td></tr>
+             <tr><td><a href="borders.html">CSS Borders</a></td></tr>
+             <tr><td><a href="margins.html">CSS Margins</a></td></tr>
+             <tr><td><a href="paddings.html">CSS Paddings</a></td></tr>
+             <tr><td><a href="fonts.html">CSS Fonts</a></td></tr>
+             <tr><td><a href="links.html">CSS Links</a></td></tr>
+             <tr><td><a href="quiz.html">CSS Quiz</a></td></tr>
+         </tbody>
+        </table>
+        <div class="details">
+            <h2>Internal Approach</h2>
+            <p>In this approach we will apply the CSS styles using HTML<<code>style</code>>tag. We have to add <<code>style</code>> tag in the head
+            section of the HTML document.</p>
+            <p>To apply the text color red for all the paragraphs of the HTML documents is as follows <br>
+                <<code>style</code>><br>p{<br>color:red;<br>}<br> <<code>/style</code>>
+            </p>
+            <br>
+            <img src="internal1.jpg" alt="">
+            <br>
+            <h2>Drawbacks</h2>
+            <ol>
+                <li>In this approach we can apply styles only for the specific HTML document,these styles will not be applied to any other HTML document</li>
+                <li>This approach increases the code duplication and code redundancy.</li>
+                <li>This approach increases the maintainability of the application.</li>
+            </ol>
+            <p>In order to the resolve this issue External approach is preferred.</p>
+            <br>
+        </div>
+        <div class="buttons">
+            <button type="button"><a href="inline.html">Previous</a></button>
+            <button type="button"><a href="external.html">Next</a></button>
+        </div>
+</body>
+</html>

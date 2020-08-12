@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS colors</title>
+</head>
+<body>
+    <div id="heading"><h1>CSS-Cascading Style Sheet</h1></div>
+    <table>
+        <thead><tr><th>CSS Tutorial</th></tr></thead>
+        <tbody>
+            <tr><td><a href="home.html">Introduction</a></td></tr>
+            <tr><td><a href="inline.html">Inline Approach</a></td></tr>
+            <tr><td><a href="internal.html">Internal Approach</a></td></tr>
+            <tr><td><a href="external.html">External Approach</a></td></tr>
+            <tr><td><a href="selectors.html">CSS Selectors</a></td></tr>
+            <tr><td><a href="colors.html">CSS Colors</a></td></tr>
+            <tr><td><a href="background.html">CSS Background</a></td></tr>
+            <tr><td><a href="borders.html">CSS Borders</a></td></tr>
+            <tr><td><a href="margins.html">CSS Margins</a></td></tr>
+            <tr><td><a href="paddings.html">CSS Paddings</a></td></tr>
+            <tr><td><a href="fonts.html">CSS Fonts</a></td></tr>
+            <tr><td><a href="links.html">CSS Links</a></td></tr>
+            <tr><td><a href="quiz.html">CSS Quiz</a></td></tr>
+        </tbody>
+       </table>
+       <div class="details">
+           <h2>CSS Colors</h2>
+           <p>To specify a color for any HTML element we use various color values.But for each color many numbers of shades are possible.In order to specify all shades
+               using normal text color is highly impossible.Using CSS color values we can specify all the shades of a color.
+               CSS colors contain the following values.
+               <br>
+           </p>
+           <h2>Textual Color</h2>
+           <p>In this we will specify the color values using textual format.Using this way we can use a few color values only
+               We cannot be able to specify the exact shade of the required color.
+               <br>background-color:green;
+           </p>
+           <h2>RGB</h2>
+           <p>In this approach we will use various combinations of color values of red,green,blue.
+               <br>Here the color value starts from 0-255.
+               <br>background-color : rgb(0,0,0);  //black color
+               <br>background-color : rgb(255,255,255);  //white color
+           </p>
+           <h2>HEX(Hexa Decimal)</h2>
+           <p>In this approach we will specify the color values using hexadecimal format of color values with the combination of red,green,blue.
+               <br>Here the color values starts from 00-FF.
+               <br>background-color : #000000; //black color
+               <br>color : #FFFFFF; //white color
+           </p>
+           <h2>HSL(Hue,Saturation,Lightness)</h2>
+           <p>This is another way of providing colors.
+            <br>Hue -> A degree on the color wheel. (0:red,120:green,240:blue,360:black).
+            <br>Saturation -> A percentage value. (0% means a shade of gray, and 100% is full color)
+            <br>Lightness -> A percentage value. (0% is black, 50% is neither light nor dark, 100% is white).
+            <br>#hsl{
+                <br>background-color : hsl(220,45%,75%);
+                <br>
+            }
+        </p>
+        <h2>RGBA(red,green,blua,alpha)</h2>
+        <p>This is same as RGB with an extra parameter alpha.Here 'alpha' indicates the transparent value,its value between 0&1.
+            <br>0 -> full transparent; 1 -> full color
+            <br>#rgba{
+                <br>background-color : rgba(66,103,178,0.5);<br>
+            }
+        </p>
+        <h2>HSLA(Hue,Saturation,lightness,alpha</h2>
+        <p>This is exactly same as HSL with an extra parameter 'alpha'
+            Here 'alpha' indicates the transparent value,its value between 0&1.
+            <br>0 -> full transparent; 1 -> full color
+            <br>#rhsla{
+                <br>background-color : hsla(220,45%,47%,0.5);<br>
+            }
+        </p>
+       </div>
+    </div>
+    <div class="buttons">
+     <button type="button"><a href="selectors.html">Previous</a></button>
+     <button type="button"><a href="background.html">Next</a></button>
+ </div>
+</body>
+</html>

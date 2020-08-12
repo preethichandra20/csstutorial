@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading"><h1>CSS-Cascading Style Sheet</h1></div>
+    <table>
+        <thead><tr><th>CSS Tutorial</th></tr></thead>
+        <tbody>
+            <tr><td><a href="home.html">Introduction</a></td></tr>
+            <tr><td><a href="inline.html">Inline Approach</a></td></tr>
+            <tr><td><a href="internal.html">Internal Approach</a></td></tr>
+            <tr><td><a href="external.html">External Approach</a></td></tr>
+            <tr><td><a href="selectors.html">CSS Selectors</a></td></tr>
+            <tr><td><a href="colors.html">CSS Colors</a></td></tr>
+            <tr><td><a href="background.html">CSS Background</a></td></tr>
+            <tr><td><a href="borders.html">CSS Borders</a></td></tr>
+            <tr><td><a href="margins.html">CSS Margins</a></td></tr>
+            <tr><td><a href="paddings.html">CSS Paddings</a></td></tr>
+            <tr><td><a href="fonts.html">CSS Fonts</a></td></tr>
+            <tr><td><a href="links.html">CSS Links</a></td></tr>
+            <tr><td><a href="quiz.html">CSS Quiz</a></td></tr>
+        </tbody>
+       </table>
+       <div class="details">
+       <h2>CSS Selectors</h2>
+       <p>We normally use CSS to select a specific HTML elements and apply styles to it.To selecr any HTML element we use the following CSS selectors</p>
+       <p>The CSS selectors are classified as follows
+           <ol>
+               <li>Element Selector/Tag Selector</li>
+               <li>Id selector</li>
+               <li>Class Selector</li>
+               <li>Attribute Selector</li>
+               <li>Pseudo Selector</li>
+           </ol>
+       </p>
+       <h2>Element Selector</h2>
+       <p>In this selector we select a specific element or tag and apply styles to it.
+           <br>To apply the background-color red for a specific tag or element is as follows.
+           <br>
+           p{
+               <br>background-color : red;<br>
+           }
+       </p>
+       <h2>Id selector</h2>
+       <p>In order to apply some styles for a specific element,we have to give a unique id and we select this id and apply styles to it.
+           <br>#green{
+               <br>background-color:green;<br>
+           }<br>
+           <<code>p id="green>Lorem ipsum dolor sit amet.</code><<code>/p</code>>
+       </p>
+       <h2>Class Selector</h2>
+       <p>In the class selector we can add the same class name for a group of elements and apply styles to it.
+           <br>To apply the background-color green for a group of HTML elements using class selector as follows,
+           <br>.green{
+            <br>background-color:green;<br>color:white; <br>
+        }<br>
+        <<code>p class="green>Lorem ipsum dolor sit amet.</code><<code>/p</code>>
+        <br>
+        <<code>h3 class="green>Lorem ipsum dolor sit amet.</code><<code>/h3</code>>
+       </p>
+       <h2>Attribute Selector</h2>
+       <p>By using CSS we can even select a specific attribute of a HTML element and apply styles to it.These styles are used when we 
+           apply some styles only for a text box or password box.
+           <br>
+           To apply background-color red fir a password box using attribute selector as follows,<br>
+           imput[type="password"]{
+            <br>   
+            background-color:red;
+            <br>
+        }
+       </p>
+       <h2>Pseudo Selector</h2>
+       <p>An action which a user is performing on the webpage is called as an event.This is the selector to apply CSS styles for special events on the browser.
+       <br>To apply the background color red which focus on a text box is as follows,<br>
+       imput[type="password"]:focus{
+        <br>   
+        background-color:red;
+        <br>
+    }
+    </p>
+       </div>
+       <div class="buttons">
+        <button type="button"><a href="external.html">Previous</a></button>
+        <button type="button"><a href="colors.html">Next</a></button>
+    </div>
+</body>
+</html>
